@@ -43,6 +43,7 @@ class _ProductListScreenState extends ConsumerState<ProductListScreen> {
             fit: BoxFit.fill,
           ),
           SingleChildScrollView(
+            physics: const BouncingScrollPhysics(),
             child: Column(
               children: [
                 BackdropFilter(

@@ -4,21 +4,15 @@ import 'core/themes/theme.dart';
 import 'routes/route_generator.dart';
 import 'routes/routes.dart';
 import 'package:flutter_neumorphic_plus/flutter_neumorphic.dart';
-import 'package:flutter/services.dart';
+// import 'package:flutter/services.dart';
 
 void main() {
-  WidgetsFlutterBinding.ensureInitialized();
-  SystemChrome.setPreferredOrientations([
-    DeviceOrientation.portraitUp,
-    DeviceOrientation.portraitDown,
-  ]).then((_) {
-    runApp(
+ runApp(
       const MaterialApp(
         debugShowCheckedModeBanner: false,
         home: ProviderScope(child: MyApp()),
       ),
     );
-  });
 }
 
 class MyApp extends StatelessWidget {
