@@ -15,7 +15,7 @@ class CustomNeobutton extends StatelessWidget {
           style: AppStyles.neuStyle,
           child: Image.asset(
             width: 30,
-            height: 25,
+            height: 35,
             img,
             color: AppColors.white.withOpacity(1),
           )),

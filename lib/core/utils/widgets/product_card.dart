@@ -62,15 +62,13 @@ class _ProductCardState extends State<ProductCard> {
               const SizedBox(height: 10),
               Center(
                 child: Image.asset(
-                  // 'assets/helmet.png',
                   widget.product.image,
-                  width: 80,
-                  height: 80,
+                  width: 125,
+                  height: 90,
                 ),
               ),
               const SizedBox(height: 10),
               Text(
-                // 'Road Helmet',
                 widget.product.name,
                 style: const TextStyle(
                   color: Colors.white,
@@ -79,7 +77,6 @@ class _ProductCardState extends State<ProductCard> {
                 ),
               ),
               Text(
-                // 'SMITH - Trade',
                 widget.product.description,
                 style: const TextStyle(
                   color: Colors.white,
@@ -89,10 +86,9 @@ class _ProductCardState extends State<ProductCard> {
               ),
               const Spacer(),
               Text(
-                // '\$120',
                 '\$${widget.product.price}',
-                style: const TextStyle(
-                  color: Colors.white,
+                style: TextStyle(
+                  color: Colors.white.withOpacity(0.8),
                   fontSize: 16,
                   fontWeight: FontWeight.bold,
                 ),
