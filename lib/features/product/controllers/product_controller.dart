@@ -6,6 +6,8 @@ import 'package:bike_shoping_app/core/constants/images.dart';
 final productProvider = FutureProvider<List<ProductModel>>((ref) async {
   await Future.delayed(const Duration(seconds: 2));
 
+  
+
   const json = {
     "products": [
       {
@@ -43,6 +45,9 @@ final productProvider = FutureProvider<List<ProductModel>>((ref) async {
     (json['products'] as List<dynamic>).map((e) => ProductModel.fromJson(e as Map<String, dynamic>)).toList();
 });
     
+
+
+
     
     // ProductModel(
     //   productid: 1,

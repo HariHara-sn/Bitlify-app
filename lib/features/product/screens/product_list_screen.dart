@@ -1,6 +1,6 @@
 import 'dart:ui';
 import 'package:bike_shoping_app/core/utils/widgets/custom_searchbtn.dart';
-import 'package:bike_shoping_app/features/widgets/bottomNavigationBar.dart';
+import 'package:bike_shoping_app/features/widgets/bottom_navigation_bar_widget.dart';
 import 'package:bike_shoping_app/features/widgets/initial_container.dart';
 import 'package:shimmer/shimmer.dart';
 import 'package:bike_shoping_app/core/constants/images.dart';
