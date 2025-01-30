@@ -2,11 +2,8 @@ import '../models/product_model.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:bike_shoping_app/core/constants/images.dart';
 
-
 final productProvider = FutureProvider<List<ProductModel>>((ref) async {
   await Future.delayed(const Duration(seconds: 2));
-
-  
 
   const json = {
     "products": [
@@ -37,12 +34,20 @@ final productProvider = FutureProvider<List<ProductModel>>((ref) async {
         "description": "Hari-Trade",
         "price": "5,999.99",
         "image": AppImages.bikeImage,
+      },
+      {
+        "productid": 4,
+        "name": "E-Bike",
+        "description": "Google-Wrap",
+        "price": "8,999.99",
+        "image": AppImages.bikeImage,
       }
     ]
   };
 
-  return 
-    (json['products'] as List<dynamic>).map((e) => ProductModel.fromJson(e as Map<String, dynamic>)).toList();
+  return (json['products'] as List<dynamic>)
+      .map((e) => ProductModel.fromJson(e as Map<String, dynamic>))
+      .toList();
 });
     
 

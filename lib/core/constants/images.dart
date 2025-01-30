@@ -7,5 +7,6 @@ class AppImages {
   static const String rectangle = 'assets/rectangle.png';
   static const String vectorcycle = 'assets/v-big-cycle.png';
   static const String vectorHelmet = 'assets/vhelmet.png';
-  static const String pivotBike = 'assets/pilot_bycycle.png';
+  static const String pivotBike = 'assets/pivot_bycycle-big.png';
+  static const String searchimg = 'assets/search.png';
 }

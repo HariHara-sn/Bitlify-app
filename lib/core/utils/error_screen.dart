@@ -1,3 +1,4 @@
+import 'package:bike_shoping_app/core/constants/colors.dart';
 import 'package:flutter/material.dart';
 
 class ErrorScreen extends StatelessWidget {
@@ -5,10 +6,27 @@ class ErrorScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return  Scaffold(
+    return Scaffold(
       appBar: AppBar(
-        title: const Text('Error Screen'),
+        centerTitle: true,
+        title: const Text(
+          'Error Screen',
+          style: TextStyle(fontWeight: FontWeight.bold, color: AppColors.red),
+        ),
       ),
-      body: const Text ("Something went wrong"),);
+      body: const Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          crossAxisAlignment: CrossAxisAlignment.center,
+          children: [
+            Text(
+              "Something went wrong...",
+              style: TextStyle(color: AppColors.white, fontSize: 20),
+            ),
+            Icon(Icons.error_outline_rounded, color: AppColors.red, size: 50),
+          ],
+        ),
+      ),
+    );
   }
 }

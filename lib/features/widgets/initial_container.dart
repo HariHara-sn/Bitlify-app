@@ -70,7 +70,7 @@ class _InitialContainerState extends State<InitialContainer>
               ),
             ),
           ),
-          const Positioned(bottom: 16, left: 16, child: Copies.offer),
+          Positioned(bottom: 16, left: 16, child: Copies.offer),
         ],
       ),
     );

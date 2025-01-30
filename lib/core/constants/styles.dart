@@ -10,6 +10,7 @@ class AppStyles {
     shape: NeumorphicShape.flat,
     boxShape: NeumorphicBoxShape.roundRect(BorderRadius.circular(13)),
     depth: 8,
+    
     lightSource: LightSource.topLeft,
     color: AppColors.neocolor,
     shadowLightColor: Colors.black.withOpacity(0.5),
