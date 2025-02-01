@@ -16,7 +16,7 @@ A new Flutter project.
 <img src="https://github.com/HariHara-sn/Bitlify-app/blob/master/screenshots/image3.png?raw=true" height="400">
 
 
-https://github.com/user-attachments/assets/ae7af719-cd18-423c-965b-54d99bb326b0
+https://github.com/HariHara-sn/Bitlify-app/blob/master/screenshots/proof.mp4
 
 
 This project is a starting point for a Flutter application.
