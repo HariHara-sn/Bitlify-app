@@ -1,8 +1,23 @@
-# bike_shoping_app
+# Bike Booking App
 
 A new Flutter project.
 
 ## Getting Started
+
+# Screenshot 1
+<img src="https://github.com/HariHara-sn/Bitlify-app/blob/master/screenshots/image1.png?raw=true" height="400">
+
+
+# Screenshot 2
+<img src="https://github.com/HariHara-sn/Bitlify-app/blob/master/screenshots/image2.png?raw=true" height="400">
+
+
+# Screenshot 3
+<img src="https://github.com/HariHara-sn/Bitlify-app/blob/master/screenshots/image3.png?raw=true" height="400">
+
+
+https://github.com/user-attachments/assets/ae7af719-cd18-423c-965b-54d99bb326b0
+
 
 This project is a starting point for a Flutter application.
 
